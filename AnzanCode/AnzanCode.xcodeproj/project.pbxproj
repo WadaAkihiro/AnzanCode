@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAFE48B13F3A50400F73681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48A13F3A50400F73681 /* UIKit.framework */; };
+		5DAFE48D13F3A50400F73681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48C13F3A50400F73681 /* Foundation.framework */; };
+		5DAFE48F13F3A50400F73681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */; };
+		5DAFE49513F3A50400F73681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE49313F3A50400F73681 /* InfoPlist.strings */; };
+		5DAFE49813F3A50400F73681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE49713F3A50400F73681 /* main.m */; };
+		5DAFE49B13F3A50400F73681 /* AnzanCodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */; };
+		5DAFE49E13F3A50400F73681 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE49C13F3A50400F73681 /* MainWindow.xib */; };
+		5DAFE4A113F3A50400F73681 /* AnzanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */; };
+		5DAFE4A413F3A50400F73681 /* AnzanCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */; };
+		5DAFE4AB13F3A50400F73681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48A13F3A50400F73681 /* UIKit.framework */; };
+		5DAFE4AC13F3A50400F73681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48C13F3A50400F73681 /* Foundation.framework */; };
+		5DAFE4AD13F3A50400F73681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */; };
+		5DAFE4B513F3A50400F73681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B313F3A50400F73681 /* InfoPlist.strings */; };
+		5DAFE4B813F3A50400F73681 /* AnzanCodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B713F3A50400F73681 /* AnzanCodeTests.h */; };
+		5DAFE4BA13F3A50400F73681 /* AnzanCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAFE4AE13F3A50400F73681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAFE47D13F3A50400F73681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAFE48513F3A50400F73681;
+			remoteInfo = AnzanCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAFE48613F3A50400F73681 /* AnzanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnzanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAFE48A13F3A50400F73681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5DAFE48C13F3A50400F73681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5DAFE49213F3A50400F73681 /* AnzanCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnzanCode-Info.plist"; sourceTree = "<group>"; };
+		5DAFE49413F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DAFE49613F3A50400F73681 /* AnzanCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnzanCode-Prefix.pch"; sourceTree = "<group>"; };
+		5DAFE49713F3A50400F73681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5DAFE49913F3A50400F73681 /* AnzanCodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeAppDelegate.h; sourceTree = "<group>"; };
+		5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeAppDelegate.m; sourceTree = "<group>"; };
+		5DAFE49D13F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5DAFE49F13F3A50400F73681 /* AnzanCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeViewController.h; sourceTree = "<group>"; };
+		5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeViewController.m; sourceTree = "<group>"; };
+		5DAFE4A313F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnzanCodeViewController.xib; sourceTree = "<group>"; };
+		5DAFE4AA13F3A50400F73681 /* AnzanCodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnzanCodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAFE4B213F3A50400F73681 /* AnzanCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnzanCodeTests-Info.plist"; sourceTree = "<group>"; };
+		5DAFE4B413F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5DAFE4B613F3A50400F73681 /* AnzanCodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnzanCodeTests-Prefix.pch"; sourceTree = "<group>"; };
+		5DAFE4B713F3A50400F73681 /* AnzanCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeTests.h; sourceTree = "<group>"; };
+		5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAFE48313F3A50400F73681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE48B13F3A50400F73681 /* UIKit.framework in Frameworks */,
+				5DAFE48D13F3A50400F73681 /* Foundation.framework in Frameworks */,
+				5DAFE48F13F3A50400F73681 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAFE4A613F3A50400F73681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE4AB13F3A50400F73681 /* UIKit.framework in Frameworks */,
+				5DAFE4AC13F3A50400F73681 /* Foundation.framework in Frameworks */,
+				5DAFE4AD13F3A50400F73681 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAFE47B13F3A50400F73681 = {
+			isa = PBXGroup;
+			children = (
+				5DAFE49013F3A50400F73681 /* AnzanCode */,
+				5DAFE4B013F3A50400F73681 /* AnzanCodeTests */,
+				5DAFE48913F3A50400F73681 /* Frameworks */,
+				5DAFE48713F3A50400F73681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAFE48713F3A50400F73681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE48613F3A50400F73681 /* AnzanCode.app */,
+				5DAFE4AA13F3A50400F73681 /* AnzanCodeTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAFE48913F3A50400F73681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE48A13F3A50400F73681 /* UIKit.framework */,
+				5DAFE48C13F3A50400F73681 /* Foundation.framework */,
+				5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5DAFE49013F3A50400F73681 /* AnzanCode */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE49913F3A50400F73681 /* AnzanCodeAppDelegate.h */,
+				5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */,
+				5DAFE49C13F3A50400F73681 /* MainWindow.xib */,
+				5DAFE49F13F3A50400F73681 /* AnzanCodeViewController.h */,
+				5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */,
+				5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */,
+				5DAFE49113F3A50400F73681 /* Supporting Files */,
+			);
+			path = AnzanCode;
+			sourceTree = "<group>";
+		};
+		5DAFE49113F3A50400F73681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE49213F3A50400F73681 /* AnzanCode-Info.plist */,
+				5DAFE49313F3A50400F73681 /* InfoPlist.strings */,
+				5DAFE49613F3A50400F73681 /* AnzanCode-Prefix.pch */,
+				5DAFE49713F3A50400F73681 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DAFE4B013F3A50400F73681 /* AnzanCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE4B713F3A50400F73681 /* AnzanCodeTests.h */,
+				5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */,
+				5DAFE4B113F3A50400F73681 /* Supporting Files */,
+			);
+			path = AnzanCodeTests;
+			sourceTree = "<group>";
+		};
+		5DAFE4B113F3A50400F73681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE4B213F3A50400F73681 /* AnzanCodeTests-Info.plist */,
+				5DAFE4B313F3A50400F73681 /* InfoPlist.strings */,
+				5DAFE4B613F3A50400F73681 /* AnzanCodeTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAFE48513F3A50400F73681 /* AnzanCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAFE4BD13F3A50400F73681 /* Build configuration list for PBXNativeTarget "AnzanCode" */;
+			buildPhases = (
+				5DAFE48213F3A50400F73681 /* Sources */,
+				5DAFE48313F3A50400F73681 /* Frameworks */,
+				5DAFE48413F3A50400F73681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnzanCode;
+			productName = AnzanCode;
+			productReference = 5DAFE48613F3A50400F73681 /* AnzanCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAFE4A913F3A50400F73681 /* AnzanCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAFE4C013F3A50400F73681 /* Build configuration list for PBXNativeTarget "AnzanCodeTests" */;
+			buildPhases = (
+				5DAFE4A513F3A50400F73681 /* Sources */,
+				5DAFE4A613F3A50400F73681 /* Frameworks */,
+				5DAFE4A713F3A50400F73681 /* Resources */,
+				5DAFE4A813F3A50400F73681 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAFE4AF13F3A50400F73681 /* PBXTargetDependency */,
+			);
+			name = AnzanCodeTests;
+			productName = AnzanCodeTests;
+			productReference = 5DAFE4AA13F3A50400F73681 /* AnzanCodeTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAFE47D13F3A50400F73681 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5DAFE48013F3A50400F73681 /* Build configuration list for PBXProject "AnzanCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DAFE47B13F3A50400F73681;
+			productRefGroup = 5DAFE48713F3A50400F73681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAFE48513F3A50400F73681 /* AnzanCode */,
+				5DAFE4A913F3A50400F73681 /* AnzanCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAFE48413F3A50400F73681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE49513F3A50400F73681 /* InfoPlist.strings in Resources */,
+				5DAFE49E13F3A50400F73681 /* MainWindow.xib in Resources */,
+				5DAFE4A413F3A50400F73681 /* AnzanCodeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAFE4A713F3A50400F73681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE4B513F3A50400F73681 /* InfoPlist.strings in Resources */,
+				5DAFE4B813F3A50400F73681 /* AnzanCodeTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DAFE4A813F3A50400F73681 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAFE48213F3A50400F73681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE49813F3A50400F73681 /* main.m in Sources */,
+				5DAFE49B13F3A50400F73681 /* AnzanCodeAppDelegate.m in Sources */,
+				5DAFE4A113F3A50400F73681 /* AnzanCodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAFE4A513F3A50400F73681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAFE4BA13F3A50400F73681 /* AnzanCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAFE4AF13F3A50400F73681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAFE48513F3A50400F73681 /* AnzanCode */;
+			targetProxy = 5DAFE4AE13F3A50400F73681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DAFE49313F3A50400F73681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAFE49413F3A50400F73681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5DAFE49C13F3A50400F73681 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAFE49D13F3A50400F73681 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAFE4A313F3A50400F73681 /* en */,
+			);
+			name = AnzanCodeViewController.xib;
+			sourceTree = "<group>";
+		};
+		5DAFE4B313F3A50400F73681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAFE4B413F3A50400F73681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAFE4BB13F3A50400F73681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DAFE4BC13F3A50400F73681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5DAFE4BE13F3A50400F73681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnzanCode/AnzanCode-Prefix.pch";
+				INFOPLIST_FILE = "AnzanCode/AnzanCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5DAFE4BF13F3A50400F73681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnzanCode/AnzanCode-Prefix.pch";
+				INFOPLIST_FILE = "AnzanCode/AnzanCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5DAFE4C113F3A50400F73681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnzanCode.app/AnzanCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnzanCodeTests/AnzanCodeTests-Prefix.pch";
+				INFOPLIST_FILE = "AnzanCodeTests/AnzanCodeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5DAFE4C213F3A50400F73681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnzanCode.app/AnzanCode";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnzanCodeTests/AnzanCodeTests-Prefix.pch";
+				INFOPLIST_FILE = "AnzanCodeTests/AnzanCodeTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAFE48013F3A50400F73681 /* Build configuration list for PBXProject "AnzanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAFE4BB13F3A50400F73681 /* Debug */,
+				5DAFE4BC13F3A50400F73681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAFE4BD13F3A50400F73681 /* Build configuration list for PBXNativeTarget "AnzanCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAFE4BE13F3A50400F73681 /* Debug */,
+				5DAFE4BF13F3A50400F73681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5DAFE4C013F3A50400F73681 /* Build configuration list for PBXNativeTarget "AnzanCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAFE4C113F3A50400F73681 /* Debug */,
+				5DAFE4C213F3A50400F73681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAFE47D13F3A50400F73681 /* Project object */;
+}
