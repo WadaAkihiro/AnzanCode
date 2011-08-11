@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D46E12913F3C2DA00E73204 /* StageSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */; };
+		5D46E12A13F3C2DA00E73204 /* StageSelectRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */; };
 		5DAFE48B13F3A50400F73681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48A13F3A50400F73681 /* UIKit.framework */; };
 		5DAFE48D13F3A50400F73681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48C13F3A50400F73681 /* Foundation.framework */; };
 		5DAFE48F13F3A50400F73681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */; };
@@ -14,14 +16,14 @@
 		5DAFE49813F3A50400F73681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE49713F3A50400F73681 /* main.m */; };
 		5DAFE49B13F3A50400F73681 /* AnzanCodeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */; };
 		5DAFE49E13F3A50400F73681 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE49C13F3A50400F73681 /* MainWindow.xib */; };
-		5DAFE4A113F3A50400F73681 /* AnzanCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */; };
-		5DAFE4A413F3A50400F73681 /* AnzanCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */; };
 		5DAFE4AB13F3A50400F73681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48A13F3A50400F73681 /* UIKit.framework */; };
 		5DAFE4AC13F3A50400F73681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48C13F3A50400F73681 /* Foundation.framework */; };
 		5DAFE4AD13F3A50400F73681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48E13F3A50400F73681 /* CoreGraphics.framework */; };
 		5DAFE4B513F3A50400F73681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B313F3A50400F73681 /* InfoPlist.strings */; };
 		5DAFE4B813F3A50400F73681 /* AnzanCodeTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B713F3A50400F73681 /* AnzanCodeTests.h */; };
 		5DAFE4BA13F3A50400F73681 /* AnzanCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */; };
+		5DAFE4D713F3A6E100F73681 /* StageThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4D613F3A6E100F73681 /* StageThumbImageView.m */; };
+		5DAFE4DA13F3A71400F73681 /* SelectedStageImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4D913F3A71400F73681 /* SelectedStageImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D46E12613F3C2DA00E73204 /* StageSelectRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageSelectRootViewController.h; sourceTree = "<group>"; };
+		5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSelectRootViewController.m; sourceTree = "<group>"; };
+		5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StageSelectRootViewController.xib; sourceTree = "<group>"; };
 		5DAFE48613F3A50400F73681 /* AnzanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnzanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAFE48A13F3A50400F73681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5DAFE48C13F3A50400F73681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -46,15 +51,16 @@
 		5DAFE49913F3A50400F73681 /* AnzanCodeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeAppDelegate.h; sourceTree = "<group>"; };
 		5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeAppDelegate.m; sourceTree = "<group>"; };
 		5DAFE49D13F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		5DAFE49F13F3A50400F73681 /* AnzanCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeViewController.h; sourceTree = "<group>"; };
-		5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeViewController.m; sourceTree = "<group>"; };
-		5DAFE4A313F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AnzanCodeViewController.xib; sourceTree = "<group>"; };
 		5DAFE4AA13F3A50400F73681 /* AnzanCodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnzanCodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAFE4B213F3A50400F73681 /* AnzanCodeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnzanCodeTests-Info.plist"; sourceTree = "<group>"; };
 		5DAFE4B413F3A50400F73681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5DAFE4B613F3A50400F73681 /* AnzanCodeTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnzanCodeTests-Prefix.pch"; sourceTree = "<group>"; };
 		5DAFE4B713F3A50400F73681 /* AnzanCodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnzanCodeTests.h; sourceTree = "<group>"; };
 		5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnzanCodeTests.m; sourceTree = "<group>"; };
+		5DAFE4D513F3A6E100F73681 /* StageThumbImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageThumbImageView.h; sourceTree = "<group>"; };
+		5DAFE4D613F3A6E100F73681 /* StageThumbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageThumbImageView.m; sourceTree = "<group>"; };
+		5DAFE4D813F3A71400F73681 /* SelectedStageImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedStageImageView.h; sourceTree = "<group>"; };
+		5DAFE4D913F3A71400F73681 /* SelectedStageImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedStageImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +119,12 @@
 		5DAFE49013F3A50400F73681 /* AnzanCode */ = {
 			isa = PBXGroup;
 			children = (
+				5DAFE4CF13F3A5EA00F73681 /* Model */,
+				5DAFE4CD13F3A59F00F73681 /* Controller */,
+				5DAFE4CB13F3A58000F73681 /* View */,
 				5DAFE49913F3A50400F73681 /* AnzanCodeAppDelegate.h */,
 				5DAFE49A13F3A50400F73681 /* AnzanCodeAppDelegate.m */,
 				5DAFE49C13F3A50400F73681 /* MainWindow.xib */,
-				5DAFE49F13F3A50400F73681 /* AnzanCodeViewController.h */,
-				5DAFE4A013F3A50400F73681 /* AnzanCodeViewController.m */,
-				5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */,
 				5DAFE49113F3A50400F73681 /* Supporting Files */,
 			);
 			path = AnzanCode;
@@ -153,6 +159,34 @@
 				5DAFE4B613F3A50400F73681 /* AnzanCodeTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DAFE4CB13F3A58000F73681 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFE4D513F3A6E100F73681 /* StageThumbImageView.h */,
+				5DAFE4D613F3A6E100F73681 /* StageThumbImageView.m */,
+				5DAFE4D813F3A71400F73681 /* SelectedStageImageView.h */,
+				5DAFE4D913F3A71400F73681 /* SelectedStageImageView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5DAFE4CD13F3A59F00F73681 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5D46E12613F3C2DA00E73204 /* StageSelectRootViewController.h */,
+				5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */,
+				5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5DAFE4CF13F3A5EA00F73681 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +258,7 @@
 			files = (
 				5DAFE49513F3A50400F73681 /* InfoPlist.strings in Resources */,
 				5DAFE49E13F3A50400F73681 /* MainWindow.xib in Resources */,
-				5DAFE4A413F3A50400F73681 /* AnzanCodeViewController.xib in Resources */,
+				5D46E12A13F3C2DA00E73204 /* StageSelectRootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +296,9 @@
 			files = (
 				5DAFE49813F3A50400F73681 /* main.m in Sources */,
 				5DAFE49B13F3A50400F73681 /* AnzanCodeAppDelegate.m in Sources */,
-				5DAFE4A113F3A50400F73681 /* AnzanCodeViewController.m in Sources */,
+				5DAFE4D713F3A6E100F73681 /* StageThumbImageView.m in Sources */,
+				5DAFE4DA13F3A71400F73681 /* SelectedStageImageView.m in Sources */,
+				5D46E12913F3C2DA00E73204 /* StageSelectRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +335,6 @@
 				5DAFE49D13F3A50400F73681 /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		5DAFE4A213F3A50400F73681 /* AnzanCodeViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DAFE4A313F3A50400F73681 /* en */,
-			);
-			name = AnzanCodeViewController.xib;
 			sourceTree = "<group>";
 		};
 		5DAFE4B313F3A50400F73681 /* InfoPlist.strings */ = {
@@ -443,6 +471,7 @@
 				5DAFE4BF13F3A50400F73681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DAFE4C013F3A50400F73681 /* Build configuration list for PBXNativeTarget "AnzanCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +480,7 @@
 				5DAFE4C213F3A50400F73681 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

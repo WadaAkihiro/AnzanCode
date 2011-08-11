@@ -8,7 +8,7 @@
 
 #import "AnzanCodeAppDelegate.h"
 
-#import "AnzanCodeViewController.h"
+#import "StageSelectRootViewController.h"
 
 @implementation AnzanCodeAppDelegate
 

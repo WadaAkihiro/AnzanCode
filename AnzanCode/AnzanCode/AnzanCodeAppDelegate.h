@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class AnzanCodeViewController;
+@class StageSelectRootViewController;
 
 @interface AnzanCodeAppDelegate : NSObject <UIApplicationDelegate> {
 
@@ -16,6 +16,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet AnzanCodeViewController *viewController;
+@property (nonatomic, retain) IBOutlet StageSelectRootViewController *viewController;
 
 @end
