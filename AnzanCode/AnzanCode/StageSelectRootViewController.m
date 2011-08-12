@@ -23,13 +23,7 @@
     //セレクトされたステージをselectedimageviewに表示するメソッド
     - (void)selectedImageNamed: (NSString *)name;
     //メイン画面がタッチされたら、プレイするかどうかの確認をするメソッド
-@end
-
-@interface StageSelectRootViewController (autoscrollingMethods)
-    - (void)maybeAutoscrollForThumb: (StageThumbImageView *)thumb;
-    - (void)autoscrollTimerFired: (NSTimer *)timer;
-    - (void)legalizeAutoscrollDistance;
-    - (float)autoscrollDistanceForProximityToEdge:(float)proximity;
+    - (void)doYouWantToPlay:(NSString *)stageName;
 @end
 
 @implementation StageSelectRootViewController
@@ -83,11 +77,34 @@
     [super viewDidLoad];
     
     //まず「プレイするステージを選んで下さい」画面を表示する
-    UIImage*    firstImage = [[UIImage alloc] initWithContentsOfFile:@"first.png"];
+    //画像を準備
+    UIImage*    firstImage = [UIImage imageNamed:@"Apollo.png"];
+    //画像をセット＋初期化
     self.selectedStageImageView = [[SelectedStageImageView alloc] initWithImage:firstImage];
+    //大きさと位置を指定
+    [self.selectedStageImageView setFrame:CGRectMake(0, 0, 360, 420)];
     //デリゲートをセット
     [self.selectedStageImageView setDelegate:self];
+    //セット完了
     [self.view addSubview:self.selectedStageImageView];
+    
+    
+    
+    
+    [thumbScrollView setContentSize:CGSizeMake(500, baseSlideView.frame.size.height)];
+    
+    //サムネイルにステージを表示する
+    //まず画像を準備する
+    UIImage* stageImage = [UIImage imageNamed:@"Finder.png"];
+    StageThumbImageView* stageView = [[StageThumbImageView alloc] initWithImage:stageImage];
+    [stageView setFrame:CGRectMake(10, 10, 70, 100)];
+    //デリゲートをセットする
+    [stageView setDelegate:self];
+        
+    
+    [thumbScrollView addSubview:stageView];
+    
+    
     
     [firstImage release];
 }
@@ -112,45 +129,72 @@
 }
 
 //-----------------------------------
-#pragma mark - uiscrollviewdelegate -
+#pragma mark - view Handling methods -
 //-----------------------------------
+//セレクトされたステージをselectedimageviewに表示するメソッド
+- (void)selectedImageNamed:(NSString *)name {
+    NSLog(@"StageSelectRootViewController  selectedImageNamed");
+    [self.selectedStageImageView removeFromSuperview];
+    
+    UIImage*    otherImage = [UIImage imageNamed:@"Clock.png"];
+    SelectedStageImageView* otherView = [[SelectedStageImageView alloc] initWithImage:otherImage];
+    [otherView setDelegate:self];
+    [otherView setTag:ZOOM_VIEW_TAG];
+    [self.view addSubview:otherView];
+    
+    
+}
+
+- (void)doYouWantToPlay:(NSString *)stageName {
+    NSLog(@"StageSelectRootViewController  doYouWantToPlay");
+    
+    
+}
+
 
 //-----------------------------------
 #pragma mark - stagethumbimageview delegate -
 //-----------------------------------
-- (void)StageThumbImageViewWasTapped:(StageThumbImageView *)tiv {
+- (void)stageThumbImageViewWasTapped:(StageThumbImageView *)stiv {
     NSLog(@"StageSelectRootViewController StageThumbImageViewWasTapped");
     
-    //[self pickImageNamed:[tiv imageName]];
+    [self selectedImageNamed:[stiv imageName]];
+    
 }
 
 
-- (void)StageThumbImageViewStartedTracking:(StageThumbImageView *)tiv {
+- (void)stageThumbImageViewStartedTracking:(StageThumbImageView *)stiv {
     NSLog(@"StageSelectRootViewController StageThumbImageViewStartedTracking");
     //[thumbScrollView bringSubviewToFront:tiv];
 }
 
-- (void)StageThumbImageViewMoved:(StageThumbImageView *)draggingThumb {
+- (void)stageThumbImageViewMoved:(StageThumbImageView *)draggingThumb {
     NSLog(@"StageSelectRootViewController StageThumbImageViewMoved");
     
     
 }
 
-- (void)StageThumbImageViewStoppedTracking:(StageThumbImageView *)tiv {
+- (void)stageThumbImageViewStoppedTracking:(StageThumbImageView *)stiv {
     NSLog(@"StageSelectRootViewController StageThumbImageViewStoppedTracking");
     // if the user lets go of the thumb image view, stop autoscrolling
-    [autoscrollTimer invalidate];
-    autoscrollTimer = nil;
+}
+
+
+//-----------------------------------
+#pragma mark - selectStageimageview delegate -
+//-----------------------------------
+- (void)selectStageImageViewWasTapped:(SelectedStageImageView *)ssiv {
+    NSLog(@"SelectStageImageView selectStageImageViewWasTapped");
+    
+    //どうやって、ゲームの区別をつけるのか？？考える！
+    //[self doYouWantToPlay:[ssiv imageName]];
+    
 }
 
 //-----------------------------------
 #pragma mark -util-
 //-----------------------------------
 
-//セレクトされたステージをselectedimageviewに表示するメソッド
-- (void)selectedImageNamed: (NSString *)name {
-    
-}
 
 - (void)dealloc
 {

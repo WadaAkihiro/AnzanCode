@@ -31,7 +31,7 @@
     id<StageThumbImageViewDelegate> delegate;//通知するために、コントローラをいれる
     
     
-    NSString*   _iamgeName;//画像の名前
+    NSString*   _imageName;//画像の名前
     
     BOOL        dragging;//ドラッグされているかどうかのフラグ
     
@@ -45,7 +45,7 @@
 //      プロパティ
 //-----------------------------------
 @property (nonatomic, assign) id<StageThumbImageViewDelegate> delegate;
-@property (nonatomic, retain) NSString*   iamgeName;
+@property (nonatomic, retain) NSString*   imageName;
 @property (nonatomic, assign) CGRect      home;
 @property (nonatomic, assign) CGPoint     touchLocation;
 

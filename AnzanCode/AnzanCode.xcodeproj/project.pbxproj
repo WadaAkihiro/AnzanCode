@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D19CB9B13F4CF730098641A /* Apollo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9213F4CF730098641A /* Apollo.png */; };
+		5D19CB9C13F4CF730098641A /* Calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9313F4CF730098641A /* Calculator.png */; };
+		5D19CB9D13F4CF730098641A /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9413F4CF730098641A /* Calendar.png */; };
+		5D19CB9E13F4CF730098641A /* Camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9513F4CF730098641A /* Camera.png */; };
+		5D19CB9F13F4CF730098641A /* Chat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9613F4CF730098641A /* Chat.png */; };
+		5D19CBA013F4CF730098641A /* Clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9713F4CF730098641A /* Clock.png */; };
+		5D19CBA113F4CF730098641A /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9813F4CF730098641A /* Contacts.png */; };
+		5D19CBA213F4CF730098641A /* Finder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9913F4CF730098641A /* Finder.png */; };
+		5D19CBA313F4CF730098641A /* FiveDice.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D19CB9A13F4CF730098641A /* FiveDice.png */; };
 		5D46E12913F3C2DA00E73204 /* StageSelectRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */; };
 		5D46E12A13F3C2DA00E73204 /* StageSelectRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */; };
 		5DAFE48B13F3A50400F73681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAFE48A13F3A50400F73681 /* UIKit.framework */; };
@@ -37,6 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D19CB9213F4CF730098641A /* Apollo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apollo.png; sourceTree = "<group>"; };
+		5D19CB9313F4CF730098641A /* Calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calculator.png; sourceTree = "<group>"; };
+		5D19CB9413F4CF730098641A /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		5D19CB9513F4CF730098641A /* Camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camera.png; sourceTree = "<group>"; };
+		5D19CB9613F4CF730098641A /* Chat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat.png; sourceTree = "<group>"; };
+		5D19CB9713F4CF730098641A /* Clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Clock.png; sourceTree = "<group>"; };
+		5D19CB9813F4CF730098641A /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		5D19CB9913F4CF730098641A /* Finder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finder.png; sourceTree = "<group>"; };
+		5D19CB9A13F4CF730098641A /* FiveDice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FiveDice.png; sourceTree = "<group>"; };
 		5D46E12613F3C2DA00E73204 /* StageSelectRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StageSelectRootViewController.h; sourceTree = "<group>"; };
 		5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageSelectRootViewController.m; sourceTree = "<group>"; };
 		5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StageSelectRootViewController.xib; sourceTree = "<group>"; };
@@ -87,6 +105,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D19CB9013F4CE840098641A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5D19CB9213F4CF730098641A /* Apollo.png */,
+				5D19CB9313F4CF730098641A /* Calculator.png */,
+				5D19CB9413F4CF730098641A /* Calendar.png */,
+				5D19CB9513F4CF730098641A /* Camera.png */,
+				5D19CB9613F4CF730098641A /* Chat.png */,
+				5D19CB9713F4CF730098641A /* Clock.png */,
+				5D19CB9813F4CF730098641A /* Contacts.png */,
+				5D19CB9913F4CF730098641A /* Finder.png */,
+				5D19CB9A13F4CF730098641A /* FiveDice.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5DAFE47B13F3A50400F73681 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +153,7 @@
 		5DAFE49013F3A50400F73681 /* AnzanCode */ = {
 			isa = PBXGroup;
 			children = (
+				5D19CB9013F4CE840098641A /* Resources */,
 				5DAFE4CF13F3A5EA00F73681 /* Model */,
 				5DAFE4CD13F3A59F00F73681 /* Controller */,
 				5DAFE4CB13F3A58000F73681 /* View */,
@@ -259,6 +294,15 @@
 				5DAFE49513F3A50400F73681 /* InfoPlist.strings in Resources */,
 				5DAFE49E13F3A50400F73681 /* MainWindow.xib in Resources */,
 				5D46E12A13F3C2DA00E73204 /* StageSelectRootViewController.xib in Resources */,
+				5D19CB9B13F4CF730098641A /* Apollo.png in Resources */,
+				5D19CB9C13F4CF730098641A /* Calculator.png in Resources */,
+				5D19CB9D13F4CF730098641A /* Calendar.png in Resources */,
+				5D19CB9E13F4CF730098641A /* Camera.png in Resources */,
+				5D19CB9F13F4CF730098641A /* Chat.png in Resources */,
+				5D19CBA013F4CF730098641A /* Clock.png in Resources */,
+				5D19CBA113F4CF730098641A /* Contacts.png in Resources */,
+				5D19CBA213F4CF730098641A /* Finder.png in Resources */,
+				5D19CBA313F4CF730098641A /* FiveDice.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

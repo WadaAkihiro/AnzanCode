@@ -45,9 +45,6 @@
     IBOutlet UIView*     baseSlideView;
     IBOutlet UIScrollView*   thumbScrollView;
     
-    //スクロール用のプロパティ
-    NSTimer*    autoscrollTimer;
-    float       autoscrollDistance;
 }
 @property (nonatomic, retain) SelectedStageImageView* selectedStageImageView;
 

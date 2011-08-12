@@ -16,6 +16,14 @@
 //-----------------------------------
 #pragma mark -init-
 //-----------------------------------
+
+//commom private init
+- (void) _init {
+    
+    [self setUserInteractionEnabled:YES];
+    [self setExclusiveTouch:YES];
+    
+}
 - (id)initWithImage:(UIImage *)image {
     
     self = [super initWithImage:image];
@@ -24,7 +32,7 @@
         return nil;
     }
     
-    [self setUserInteractionEnabled:YES];
+    [self _init];
     
     return self;
     
@@ -62,6 +70,9 @@
     
     
     //call delegate methods change image
+    if ([delegate respondsToSelector:@selector(selectStageImageViewWasTapped:)]) {
+        [delegate selectStageImageViewWasTapped:self];
+    }
 }
 
 

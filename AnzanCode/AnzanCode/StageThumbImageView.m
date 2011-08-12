@@ -14,7 +14,7 @@ float   distanceBetweenPoints(CGPoint a, CGPoint b);
 
 @implementation StageThumbImageView
 
-@synthesize delegate, iamgeName = _iamgeName;
+@synthesize delegate, imageName = _imageName;
 @synthesize home, touchLocation;
 
 - (void)_init {
@@ -42,8 +42,8 @@ float   distanceBetweenPoints(CGPoint a, CGPoint b);
     touchLocation = [[touches anyObject] locationInView:self];
     
     //call delegate methods
-    if ([delegate respondsToSelector:@selector(StageThumbImageViewStartedTracking:)])
-        [delegate StageThumbImageViewStartedTracking:self];
+    if ([delegate respondsToSelector:@selector(stageThumbImageViewStartedTracking:)])
+        [delegate stageThumbImageViewStartedTracking:self];
     
 }
 
@@ -75,12 +75,12 @@ float   distanceBetweenPoints(CGPoint a, CGPoint b);
         dragging = NO;
     } else if ([[touches anyObject] tapCount] == 1) {
         //call delegate methods
-        if ([delegate respondsToSelector:@selector(StageThumbImageViewWasTapped:)])
-            [delegate StageThumbImageViewWasTapped:self];
+        if ([delegate respondsToSelector:@selector(stageThumbImageViewWasTapped:)])
+            [delegate stageThumbImageViewWasTapped:self];
     }
     //call delegate methods
-    if ([delegate respondsToSelector:@selector(StageThumbImageViewStoppedTracking:)]) 
-        [delegate StageThumbImageViewStoppedTracking:self];
+    if ([delegate respondsToSelector:@selector(stageThumbImageViewStoppedTracking:)]) 
+        [delegate stageThumbImageViewStoppedTracking:self];
     
     
 }
@@ -92,8 +92,8 @@ float   distanceBetweenPoints(CGPoint a, CGPoint b);
     [self goHome];
     dragging = NO;
     //call delegate methods
-    if ([delegate respondsToSelector:@selector(StageThumbImageViewStoppedTracking:)]) 
-        [delegate StageThumbImageViewStoppedTracking:self];
+    if ([delegate respondsToSelector:@selector(stageThumbImageViewStoppedTracking:)]) 
+        [delegate stageThumbImageViewStoppedTracking:self];
     
     
 }
