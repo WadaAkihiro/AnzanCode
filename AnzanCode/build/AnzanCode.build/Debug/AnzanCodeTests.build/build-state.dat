@@ -1,0 +1,55 @@
+TAnzanCodeTests
+v7
+r1
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/AnzanCodeTests/AnzanCodeTests.h
+c000000004E495B480000000000000103
+t1313430344
+s259
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/AnzanCodeTests/en.lproj/InfoPlist.strings
+c000000004E495B48000000000000002D
+t1313430344
+s45
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/AnzanCode.build/Debug/AnzanCodeTests.build/Script-5DAFE4A813F3A50400F73681.sh
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest
+t2
+s0
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest/Contents/Info.plist
+t2
+s0
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest/Contents/Resources/AnzanCodeTests.h
+t2
+s0
+
+N/Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+NAnzanCodeTests/AnzanCodeTests-Info.plist
+c000000004E495B4800000000000002B0
+t1313430344
+s688
+
+CCopyStringsFile /Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest/Contents/Resources/en.lproj/InfoPlist.strings AnzanCodeTests/en.lproj/InfoPlist.strings
+r0
+
+CCpResource build/Debug/AnzanCodeTests.octest/Contents/Resources/AnzanCodeTests.h AnzanCodeTests/AnzanCodeTests.h
+r0
+
+CPhaseScriptExecution スクリプトを実行 /Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/AnzanCode.build/Debug/AnzanCodeTests.build/Script-5DAFE4A813F3A50400F73681.sh
+r0
+
+CProcessInfoPlistFile /Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest/Contents/Info.plist AnzanCodeTests/AnzanCodeTests-Info.plist
+r0
+
+CTouch /Users/user/Dropbox/Public/AnzanCode/AnzanCode/build/Debug/AnzanCodeTests.octest
+r0
+

@@ -37,6 +37,8 @@
 		5DE6222913F8D56E00B1AB43 /* StagePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6222713F8D56E00B1AB43 /* StagePlayViewController.xib */; };
 		5DE6223713F8E11A00B1AB43 /* DoYouWantToPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */; };
 		5DE6223813F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */; };
+		CEE29AEA13F998D800F9FB2D /* class.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE29AE813F998D800F9FB2D /* class.m */; };
+		CEE29AEB13F998D800F9FB2D /* class.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEE29AE913F998D800F9FB2D /* class.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +91,9 @@
 		5DE6223413F8E11A00B1AB43 /* DoYouWantToPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoYouWantToPlayViewController.h; sourceTree = "<group>"; };
 		5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoYouWantToPlayViewController.m; sourceTree = "<group>"; };
 		5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoYouWantToPlayViewController.xib; sourceTree = "<group>"; };
+		CEE29AE713F998D800F9FB2D /* class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = class.h; sourceTree = "<group>"; };
+		CEE29AE813F998D800F9FB2D /* class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = class.m; sourceTree = "<group>"; };
+		CEE29AE913F998D800F9FB2D /* class.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = class.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +234,9 @@
 				5DE6223413F8E11A00B1AB43 /* DoYouWantToPlayViewController.h */,
 				5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */,
 				5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */,
+				CEE29AE713F998D800F9FB2D /* class.h */,
+				CEE29AE813F998D800F9FB2D /* class.m */,
+				CEE29AE913F998D800F9FB2D /* class.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -321,6 +329,7 @@
 				5D19CBA313F4CF730098641A /* FiveDice.png in Resources */,
 				5DE6222913F8D56E00B1AB43 /* StagePlayViewController.xib in Resources */,
 				5DE6223813F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib in Resources */,
+				CEE29AEB13F998D800F9FB2D /* class.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +372,7 @@
 				5D46E12913F3C2DA00E73204 /* StageSelectRootViewController.m in Sources */,
 				5DE6222813F8D56E00B1AB43 /* StagePlayViewController.m in Sources */,
 				5DE6223713F8E11A00B1AB43 /* DoYouWantToPlayViewController.m in Sources */,
+				CEE29AEA13F998D800F9FB2D /* class.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,8 +434,8 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphonesimulator4.1;
 			};
 			name = Debug;
 		};
@@ -438,9 +448,9 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
+				SDKROOT = iphonesimulator4.1;
 			};
 			name = Release;
 		};
