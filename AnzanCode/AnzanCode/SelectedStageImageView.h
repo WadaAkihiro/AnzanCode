@@ -30,13 +30,15 @@
     
     id<SelectedStageImageViewDelegate> delegate;
     
+    NSString*   imageName;
+    
 }
 
 //-----------------------------------
 //      プロパティ
 //-----------------------------------
 @property (nonatomic, assign) id<SelectedStageImageViewDelegate> delegate;
-
+@property (nonatomic, retain) NSString* imageName;
 
 @end
 

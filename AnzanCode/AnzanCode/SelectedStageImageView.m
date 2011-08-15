@@ -11,7 +11,7 @@
 
 @implementation SelectedStageImageView
 
-@synthesize delegate;
+@synthesize delegate, imageName;
 
 //-----------------------------------
 #pragma mark -init-

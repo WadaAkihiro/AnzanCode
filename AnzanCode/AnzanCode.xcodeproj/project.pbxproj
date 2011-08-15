@@ -33,6 +33,10 @@
 		5DAFE4BA13F3A50400F73681 /* AnzanCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4B913F3A50400F73681 /* AnzanCodeTests.m */; };
 		5DAFE4D713F3A6E100F73681 /* StageThumbImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4D613F3A6E100F73681 /* StageThumbImageView.m */; };
 		5DAFE4DA13F3A71400F73681 /* SelectedStageImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAFE4D913F3A71400F73681 /* SelectedStageImageView.m */; };
+		5DE6222813F8D56E00B1AB43 /* StagePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6222613F8D56E00B1AB43 /* StagePlayViewController.m */; };
+		5DE6222913F8D56E00B1AB43 /* StagePlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6222713F8D56E00B1AB43 /* StagePlayViewController.xib */; };
+		5DE6223713F8E11A00B1AB43 /* DoYouWantToPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */; };
+		5DE6223813F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +83,12 @@
 		5DAFE4D613F3A6E100F73681 /* StageThumbImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StageThumbImageView.m; sourceTree = "<group>"; };
 		5DAFE4D813F3A71400F73681 /* SelectedStageImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedStageImageView.h; sourceTree = "<group>"; };
 		5DAFE4D913F3A71400F73681 /* SelectedStageImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedStageImageView.m; sourceTree = "<group>"; };
+		5DE6222513F8D56E00B1AB43 /* StagePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StagePlayViewController.h; sourceTree = "<group>"; };
+		5DE6222613F8D56E00B1AB43 /* StagePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StagePlayViewController.m; sourceTree = "<group>"; };
+		5DE6222713F8D56E00B1AB43 /* StagePlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StagePlayViewController.xib; sourceTree = "<group>"; };
+		5DE6223413F8E11A00B1AB43 /* DoYouWantToPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoYouWantToPlayViewController.h; sourceTree = "<group>"; };
+		5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoYouWantToPlayViewController.m; sourceTree = "<group>"; };
+		5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoYouWantToPlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +223,12 @@
 				5D46E12613F3C2DA00E73204 /* StageSelectRootViewController.h */,
 				5D46E12713F3C2DA00E73204 /* StageSelectRootViewController.m */,
 				5D46E12813F3C2DA00E73204 /* StageSelectRootViewController.xib */,
+				5DE6222513F8D56E00B1AB43 /* StagePlayViewController.h */,
+				5DE6222613F8D56E00B1AB43 /* StagePlayViewController.m */,
+				5DE6222713F8D56E00B1AB43 /* StagePlayViewController.xib */,
+				5DE6223413F8E11A00B1AB43 /* DoYouWantToPlayViewController.h */,
+				5DE6223513F8E11A00B1AB43 /* DoYouWantToPlayViewController.m */,
+				5DE6223613F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -303,6 +319,8 @@
 				5D19CBA113F4CF730098641A /* Contacts.png in Resources */,
 				5D19CBA213F4CF730098641A /* Finder.png in Resources */,
 				5D19CBA313F4CF730098641A /* FiveDice.png in Resources */,
+				5DE6222913F8D56E00B1AB43 /* StagePlayViewController.xib in Resources */,
+				5DE6223813F8E11A00B1AB43 /* DoYouWantToPlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +361,8 @@
 				5DAFE4D713F3A6E100F73681 /* StageThumbImageView.m in Sources */,
 				5DAFE4DA13F3A71400F73681 /* SelectedStageImageView.m in Sources */,
 				5D46E12913F3C2DA00E73204 /* StageSelectRootViewController.m in Sources */,
+				5DE6222813F8D56E00B1AB43 /* StagePlayViewController.m in Sources */,
+				5DE6223713F8E11A00B1AB43 /* DoYouWantToPlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

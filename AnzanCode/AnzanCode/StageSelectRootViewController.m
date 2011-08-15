@@ -29,6 +29,7 @@
 @implementation StageSelectRootViewController
 
 @synthesize selectedStageImageView = _selectedStageImageView;
+@synthesize dvc = _dvc;
 
 //-----------------------------------
 #pragma mark -init-
@@ -82,7 +83,7 @@
     //画像をセット＋初期化
     self.selectedStageImageView = [[SelectedStageImageView alloc] initWithImage:firstImage];
     //大きさと位置を指定
-    [self.selectedStageImageView setFrame:CGRectMake(0, 0, 360, 420)];
+    [self.selectedStageImageView setFrame:CGRectMake(0, 0, 360, 320)];
     //デリゲートをセット
     [self.selectedStageImageView setDelegate:self];
     //セット完了
@@ -145,8 +146,16 @@
     
 }
 
-- (void)doYouWantToPlay:(NSString *)stageName {
-    NSLog(@"StageSelectRootViewController  doYouWantToPlay");
+- (void)DisplaydoYouWantToPlay:(NSString *)stageName {
+    NSLog(@"StageSelectRootViewController  DisplaydoYouWantToPlay");
+    
+    //プレイしますか？画面を作成する
+
+    //背景画像を作成する
+    self.dvc = [[DoYouWantToPlayViewController alloc] init];
+    
+    [self.view addSubview:self.dvc.view];
+    
     
     
 }
@@ -187,7 +196,7 @@
     NSLog(@"SelectStageImageView selectStageImageViewWasTapped");
     
     //どうやって、ゲームの区別をつけるのか？？考える！
-    //[self doYouWantToPlay:[ssiv imageName]];
+    [self DisplaydoYouWantToPlay:[ssiv imageName]];
     
 }
 

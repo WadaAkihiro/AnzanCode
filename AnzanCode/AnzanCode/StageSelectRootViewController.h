@@ -35,6 +35,7 @@
 #import <UIKit/UIKit.h>
 #import "StageThumbImageView.h"
 #import "SelectedStageImageView.h"
+#import "DoYouWantToPlayViewController.h"
 
 
 @interface StageSelectRootViewController : UIViewController
@@ -45,8 +46,12 @@
     IBOutlet UIView*     baseSlideView;
     IBOutlet UIScrollView*   thumbScrollView;
     
+    //プレイしますか？画面用
+    DoYouWantToPlayViewController*  _dvc;
+    BOOL            wasTapped;
+    
 }
 @property (nonatomic, retain) SelectedStageImageView* selectedStageImageView;
-
+@property (nonatomic, retain) DoYouWantToPlayViewController*  dvc;
 @end
 
