@@ -31,8 +31,11 @@
 #import <UIKit/UIKit.h>
 #import "StagePlayViewController.h"
 
+@protocol DoYouWantToPlayDelegate;
 
 @interface DoYouWantToPlayViewController : UIViewController {
+    
+    id<DoYouWantToPlayDelegate> delegate;
     
     IBOutlet UIButton*  playButton;
     IBOutlet UIButton*  cancelButton;
@@ -43,6 +46,7 @@
 //-----------------------------------
 //      property
 //-----------------------------------
+@property (nonatomic, retain) id<DoYouWantToPlayDelegate> delegate;
 @property (nonatomic, retain) UIButton*  playButton;
 @property (nonatomic, retain) UIButton*  cancelButton;
 @property (nonatomic, retain) StagePlayViewController*    spvc;

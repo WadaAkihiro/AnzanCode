@@ -36,12 +36,14 @@
 #import "StageThumbImageView.h"
 #import "SelectedStageImageView.h"
 #import "DoYouWantToPlayViewController.h"
-
+#import "StagePlayViewController.h"
 
 @interface StageSelectRootViewController : UIViewController
-<UIScrollViewDelegate, StageThumbImageViewDelegate,SelectedStageImageViewDelegate> {
+<UIScrollViewDelegate, StageThumbImageViewDelegate,SelectedStageImageViewDelegate,
+    DoYouWantToPlayDelegate> {
     
     IBOutlet SelectedStageImageView* _selectedStageImageView;
+    StagePlayViewController*        _stagePlayViewController;
     
     IBOutlet UIView*     baseSlideView;
     IBOutlet UIScrollView*   thumbScrollView;
@@ -51,7 +53,13 @@
     BOOL            wasTapped;
     
 }
+
 @property (nonatomic, retain) SelectedStageImageView* selectedStageImageView;
+@property (nonatomic, retain) StagePlayViewController* stagePlayViewController;
 @property (nonatomic, retain) DoYouWantToPlayViewController*  dvc;
+
+- (void)playStage: (DoYouWantToPlayViewController *)dvc;
+
+
 @end
 

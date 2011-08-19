@@ -23,11 +23,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AnzanCode/StageSelectRootViewController.m"
-         timestampString = "335078946.320976"
+         timestampString = "335414936.136154"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "103"
-         endingLineNumber = "103"
+         startingLineNumber = "104"
+         endingLineNumber = "104"
          landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
@@ -37,12 +37,26 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "AnzanCode/StageSelectRootViewController.m"
-         timestampString = "335078946.320976"
+         timestampString = "335416468.271026"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "170"
-         endingLineNumber = "170"
+         startingLineNumber = "186"
+         endingLineNumber = "186"
          landmarkName = "-stageThumbImageViewWasTapped:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "AnzanCode/DoYouWantToPlayViewController.m"
+         timestampString = "335415943.507903"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "99"
+         endingLineNumber = "99"
+         landmarkName = "-playSelectedStage:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -29,6 +29,7 @@
 @implementation StageSelectRootViewController
 
 @synthesize selectedStageImageView = _selectedStageImageView;
+@synthesize stagePlayViewController = _stagePlayViewController;
 @synthesize dvc = _dvc;
 
 //-----------------------------------
@@ -153,10 +154,25 @@
 
     //背景画像を作成する
     self.dvc = [[DoYouWantToPlayViewController alloc] init];
+    //デリゲートをセット
+    self.dvc.delegate = self;
     
     [self.view addSubview:self.dvc.view];
     
     
+    
+}
+
+//ステージプレイを実行するメソッド
+- (void) playStage: (DoYouWantToPlayViewController *)dvc {
+    
+    NSLog(@"StageSelectRootViewController      playSelected Stage ");
+    
+    [self.dvc.view removeFromSuperview];
+    
+    self.stagePlayViewController = [[StagePlayViewController alloc] init];
+    
+    [self.view addSubview:self.stagePlayViewController.view];
     
 }
 

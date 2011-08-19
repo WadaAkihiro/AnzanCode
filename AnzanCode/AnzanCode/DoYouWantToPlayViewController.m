@@ -11,6 +11,7 @@
 
 @implementation DoYouWantToPlayViewController
 
+@synthesize delegate;
 @synthesize playButton;
 @synthesize cancelButton;
 @synthesize spvc = _spvc;
@@ -88,9 +89,14 @@
 - (IBAction) playSelectedStage: (id)sender {
 
     NSLog(@"playSelectedStage");
-    self.spvc = [[StagePlayViewController alloc] init];
-    [self.view addSubview:self.spvc.view];
     
+    if ([delegate respondsToSelector:@selector(playStage:)]) {
+        [delegate playStage:self];
+    }
+        
+
+
+        
     
 }
 
