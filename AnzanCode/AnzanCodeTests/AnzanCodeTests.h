@@ -6,6 +6,8 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+//yahoo!!
+
 #import <SenTestingKit/SenTestingKit.h>
 
 
